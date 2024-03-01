@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de CEP</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta de CEP</h1>
+    <!-- Campo de entrada para o usuário digitar o CEP -->
+    <input type="text" id="cepInput" placeholder="Digite o CEP" maxlength="8" pattern="[0-9]*">
+    <!-- Botão para iniciar a busca do CEP -->
+    <button id="buscarCEP">Buscar</button>
+    <!-- Div onde será exibido o resultado da busca -->
+    <div class="resultado" id="resultadoCEP"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

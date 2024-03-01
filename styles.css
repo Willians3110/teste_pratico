@@ -1,0 +1,31 @@
+/* Define o estilo básico da página */
+body {
+  font-family: Arial, sans-serif;
+}
+/* Estiliza o contêiner centralizado */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Estiliza o campo de entrada de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* Estiliza o botão de busca */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Estiliza a div de resultado */
+.resultado {
+  margin-top: 20px;
+}
